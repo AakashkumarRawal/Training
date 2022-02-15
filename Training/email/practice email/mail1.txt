@@ -1,0 +1,18 @@
+2. Write an email on accepting the mistakes that has happened during the last sprint and how you will overcome it.
+
+Last sprint mistake | shopify project | Frontend Developer
+
+Dear Ma'am,
+Hope you are doing well.
+
+I am writing this email regarding the last sprint mistake. I am working on an E-commerce project named Shopify and I accidentally make a mistake in the last sprint iteration number 12, there was an app crashed down problem due to new version but there is no need to be panic because I had find cause of problem and I have started working on it. 
+
+I will inform you as soon as i will solve the problem. I am extremely sorry for these mistake. 
+
+--
+Regards
+Aakashkumar Rawal
+Frontend Developer Trainee | Frontend department
+Contact - 9904094107
+EMail - aakashr.wot2022@gmail.com
+Website - www.weboccult.com
