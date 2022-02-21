@@ -32,5 +32,4 @@ for (let i = -(n + 1); i <= n + 1; i++) {
     string += "\n"
 }
 console.log(string);
-//i + j == n - 1 || i == j
-//
+//i + j == n - 1 || i == jM
