@@ -1,0 +1,736 @@
+        /* Fonts & Icons */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+        /* Global Declarations */
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        legend {
+            text-transform: uppercase;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato';
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .container {
+            max-width: 1920px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        .container2 {
+            max-width: 902px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        /* .block-container {
+    max-width: 902px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+} */
+        
+        .clearfix:before,
+        .clearfix:after {
+            width: 100%;
+            display: table;
+            content: '';
+        }
+        /* baner section */
+        
+        .banner-section {
+            background-image: url('../assets/images/home.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            padding-top: 286px;
+            padding-bottom: 112px;
+        }
+        
+        .banner-section .ellispe-logo {
+            padding: 0 0 78px 0;
+        }
+        
+        .banner-section h1 {
+            margin: 0;
+            font-size: 54px;
+            letter-spacing: 8.6px;
+            color: #ffffff;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 64.65px;
+        }
+        
+        .banner-section p {
+            font-size: 15px;
+            letter-spacing: 0.89px;
+            line-height: 29px;
+            color: #ffffff;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            padding: 32px 0px 0px 6px;
+            max-width: 589px;
+            width: 100%;
+            display: inline-block;
+        }
+        
+        .banner-section .circle-logo img {
+            padding: 236px 0px 0 1px;
+        }
+        /* about us  */
+        
+        .about-us {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 140px 0px 158px 0;
+            margin: 0;
+        }
+        
+        .about-us .block-about fieldset {
+            margin: 0px 1px 0px 0px;
+            border: 2px solid #3c3c3c;
+            text-align: center;
+            padding: 0;
+        }
+        
+        .about-us .block-about legend {
+            font-size: 34px;
+            letter-spacing: 0.15em;
+            color: #3c3c3c;
+            font-weight: 700;
+            text-align: center;
+            padding: 18px 100px 23px 105px;
+            line-height: 0;
+        }
+        
+        .about-us .block-about p {
+            font-size: 16px;
+            line-height: 24px;
+            color: #3c3c3c;
+            font-weight: 300;
+            font-family: "Lato";
+            text-align: center;
+            max-width: 553px;
+            width: 100%;
+            display: inline-block;
+        }
+        
+        .about-us .block-about .para1 p {
+            padding: 49px 0 0px 9px;
+            margin: 0;
+        }
+        
+        .about-us .block-about .para2 p {
+            padding: 24px 0 48px 7px;
+            margin: 0;
+        }
+        /* service */
+        
+        .service-section {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 0;
+            margin: 0;
+            background-image: url('../assets/images/service.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 107px;
+            padding-bottom: 110px;
+        }
+        
+        .block-service fieldset {
+            margin: 0px 2px 0px 0px;
+            border: 2px solid #ffff;
+            text-align: center;
+            padding: 0 0 52px 0px;
+        }
+        
+        .block-service legend {
+            font-size: 34px;
+            letter-spacing: 5px;
+            text-align: center;
+            padding: 0px 109px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Lato";
+        }
+        
+        .block-service p {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 300;
+            text-align: center;
+            margin: 0;
+            color: #ffffff;
+            text-align: center;
+            max-width: 553px;
+            width: 100%;
+            display: inline-block;
+        }
+        
+        .block-service .para1 p {
+            padding: 52px 3px 0px 10px;
+        }
+        
+        .block-service .para1 .para1-2 {
+            padding: 2px 0px 0px 8px;
+        }
+        
+        .block-service .para2 p {
+            padding: 2px 3px 2px 10px;
+        }
+        
+        .block-service .para3 p {
+            padding: 1px 3px 51px 11px;
+        }
+        /* what we do */
+        
+        .what-section {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 99px 0 99px 0;
+            margin: 0;
+        }
+        
+        .block-what fieldset {
+            margin: 0px 1px 0px 0px;
+            border: 2px solid #3c3c3c;
+            text-align: center;
+            padding: 0;
+        }
+        
+        .block-what legend {
+            font-size: 34px;
+            letter-spacing: 0.16em;
+            text-align: center;
+            padding: 21px 69px 20px 72px;
+            font-weight: 700;
+            font-family: "Lato";
+            color: #3c3c3c;
+            line-height: 0px;
+        }
+        
+        .block-what h3 {
+            font-size: 20px;
+            letter-spacing: 3px;
+            color: #3c3c3c;
+            font-weight: 700;
+        }
+        
+        .block-what p {
+            font-size: 14px;
+            line-height: 26px;
+            color: #3c3c3c;
+            font-weight: 300;
+            text-align: center;
+            margin: 0;
+        }
+        
+        .block-what img {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .block-design .img-what {
+            margin: 0;
+            padding: 104px 0 32px 0px;
+        }
+        
+        .block-design .para-what h3 {
+            margin: 0;
+            padding: 1px 1px 24px 0px;
+        }
+        
+        .block-design .para-what p {
+            padding: 0 0px 3px 8px;
+            margin: 0;
+            max-width: 553px;
+            width: 100%;
+            display: inline-block;
+        }
+        
+        .block-development .img-what img {
+            margin: 0;
+            padding: 1px 2px 5px 0px;
+        }
+        
+        .block-development .img-what {
+            margin: 0;
+            padding: 99px 0 0 0;
+        }
+        
+        .block-development .para-what h3 {
+            margin: 0;
+            padding: 24px 0px 32px 5px;
+        }
+        
+        .block-development .para-what p {
+            padding: 0 0px 3px 8px;
+            margin: 0;
+            max-width: 561px;
+            width: 100%;
+            display: inline-block;
+        }
+        
+        .block-product .img-what img {
+            margin: 0;
+            padding: 1px 2px 5px 0px;
+        }
+        
+        .block-product .img-what {
+            margin: 0;
+            padding: 84px 0 0 0;
+        }
+        
+        .block-product .para-what h3 {
+            margin: 0;
+            padding: 31px 1px 35px 5px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        
+        .block-product .para-what p {
+            padding: 0 0px 83px 8px;
+            margin: 0;
+            max-width: 553px;
+            width: 100%;
+            display: inline-block;
+        }
+        /* photo gallary */
+        
+        .photo-section {
+            /* margin: -48px 0px 0px 0px; */
+            padding: 14px 0 14px 0;
+        }
+        
+        .block-photo {
+            width: 100%;
+        }
+        
+        .photo-section h2 {
+            text-transform: uppercase;
+            font-size: 34px;
+            letter-spacing: 5px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Lato";
+            margin: 0;
+            padding: 163px 11px 33px 44px;
+        }
+        
+        .block-photo .image1 {
+            background-image: url("../assets/images/topwork.png");
+            width: 17.92%;
+            float: left;
+            margin: 0 9px 0px 0px;
+        }
+        
+        .block-photo .image2 {
+            background-image: url("../assets/images/joint.png");
+            width: 62.77%;
+            float: left;
+            margin: 0px 9px 0 0;
+        }
+        
+        .block-photo .image3 {
+            background-image: url("../assets/images/market.png");
+            width: 17.80%;
+            float: left;
+        }
+        
+        .block-photo .image4 {
+            background-image: url("../assets/images/worktop.png");
+            width: 17.92%;
+            float: left;
+            margin: 10px 10px 0 0;
+        }
+        
+        .block-photo .image5 {
+            background-image: url("../assets/images/lable.png");
+            width: 62.77%;
+            float: left;
+            margin: 12px 8px 0px 0;
+        }
+        
+        .block-photo .image6 {
+            background-image: url("../assets/images/kyiv.png");
+            width: 17.80%;
+            float: left;
+            margin-top: 11px;
+        }
+        /* contact us  */
+        
+        .contact {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 103px 0 33px 0;
+            margin: 0;
+        }
+        
+        .contact .block-contact fieldset {
+            border: 2px solid #3c3c3c;
+            text-align: center;
+            padding: 0;
+            margin: 0px 2px 0px 1px;
+        }
+        
+        .contact .block-contact legend {
+            font-size: 30px;
+            letter-spacing: 0.15em;
+            color: #3c3c3c;
+            font-weight: 700;
+            text-align: center;
+            padding: 6px 98px 0 103px;
+            display: inline-block;
+        }
+        
+        .contact .block-contact .para p {
+            font-size: 16px;
+            line-height: 24px;
+            color: #3c3c3c;
+            font-weight: 300;
+            font-family: "Lato";
+            text-align: center;
+            max-width: 561px;
+            width: 100%;
+            display: inline-block;
+        }
+        
+        .contact .block-contact .para .para1 {
+            padding: 47px 0 2px 0;
+            margin: 0;
+            max-width: 561px;
+        }
+        
+        .contact .block-contact a {
+            background-color: #3c3c3c;
+            border: 2px solid #3c3c3c;
+            font-size: 16px;
+            letter-spacing: 2.6px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: "Lato";
+            text-align: center;
+            margin: 41px 3px 48px 0px;
+            padding: 16px 133px 19px;
+            display: inline-block;
+        }
+        /* footer section */
+        
+        .footer-section .copyright p {
+            font-size: 14px;
+            color: #3c3c3c;
+            font-weight: 400;
+            font-family: "Lato";
+            padding: 11px 0 0 36px;
+            margin: 0;
+        }
+        
+        .footer-section {
+            text-align: center;
+            padding: 30px 49px 30px 0px;
+        }
+        
+        .copyright,
+        .icon {
+            float: left;
+        }
+        
+        .block-footer {
+            padding: 0 0 0 298px;
+        }
+        
+        .footer-section .icon img {
+            margin: 0;
+        }
+        /* Responsive Media Queries 
+----------------------------*/
+        
+        @media (max-width:1280px) {
+            .container2 {
+                max-width: 870px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .block-photo .image1,
+            .block-photo .image2,
+            .block-photo .image3,
+            .block-photo .image4,
+            .block-photo .image5,
+            .block-photo .image6 {
+                width: 49%;
+                margin: 3px 3px;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .photo-section {
+                padding: 14px 0px;
+            }
+            .photo-section h2 {
+                padding: 0;
+                padding: 163px 0px 33px 44px;
+                margin: 0 0;
+            }
+            .block-footer {
+                padding: 0 0 0 0px;
+                text-align: center;
+                display: inline-block;
+            }
+        }
+        
+        @media (max-width:1180px) {
+            .container2 {
+                max-width: 850px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+        
+        @media (max-width:1024px) {
+            .container2 {
+                max-width: 800px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+        
+        @media (max-width:992px) {
+            .container2 {
+                max-width: 700px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .about-us,
+            .service-section,
+            .what-section,
+            .contact {
+                padding: 100px 0;
+            }
+            .contact {
+                padding-bottom: 20px
+            }
+            .about-us .block-about legend,
+            .block-service legend,
+            .block-what legend,
+            .contact .block-contact legend {
+                font-size: 30px;
+            }
+            .banner-section p,
+            .block-service p {
+                font-size: 14px;
+                line-height: 26px;
+                padding: 22px 0px 0px 6px;
+            }
+            .block-service p {
+                font-size: 15px;
+            }
+            .about-us .block-about .para1 p,
+            .block-service .para1 p {
+                padding: 30px 0 0px 9px;
+            }
+            /* banner section  */
+            .banner-section {
+                padding-top: 100px;
+                padding-bottom: 112px;
+            }
+            .banner-section .circle-logo img {
+                padding: 50px 0px 0 1px;
+            }
+            .banner-section h1 {
+                margin: 0;
+                font-size: 40px;
+                letter-spacing: 4.6px;
+                color: #ffffff;
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 48.65px;
+            }
+            .about-us .block-about .para2 p {
+                padding: 13px 0 48px 7px;
+                margin: 0;
+            }
+            /* about us  */
+            .about-us .block-about p,
+            .contact .block-contact .para p {
+                font-size: 15px;
+            }
+            /* service section  */
+            .block-design .img-what {
+                margin: 0;
+                padding: 60px 0 32px 0px;
+            }
+            /* photo gallary  */
+            .photo-section h2 {
+                font-size: 26px;
+            }
+            /* contact us  */
+            .contact .block-contact .para .para1 {
+                padding: 30px 0 2px 0;
+            }
+            .contact .block-contact a {
+                padding: 16px 64px;
+            }
+            .footer-section {
+                text-align: center;
+                padding: 9px 49px;
+            }
+        }
+        
+        @media (max-width:768px) {
+            .container2 {
+                max-width: 100%;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .about-us .block-about p,
+            .contact .block-contact .para p,
+            .block-what p,
+            .block-service p {
+                font-size: 13px;
+                line-height: 22px;
+            }
+            .about-us,
+            .service-section,
+            .what-section,
+            .contact {
+                padding: 50px 0;
+            }
+            .about-us .block-about legend,
+            .block-service legend,
+            .block-what legend,
+            .contact .block-contact legend {
+                font-size: 20px;
+                padding: 0 60px;
+            }
+            /* banner  */
+            .banner-section {
+                padding-top: 70px;
+                padding-bottom: 70px;
+            }
+            .banner-section h1 {
+                font-size: 30px;
+                line-height: 36.65px;
+            }
+            .banner-section p {
+                font-size: 12px;
+                line-height: 20px;
+                padding: 13px 0px 0px 6px;
+            }
+            .banner-section p {
+                max-width: 382px;
+            }
+            .banner-section .ellispe-logo {
+                padding: 0 0 35px 0;
+            }
+            /* what section  */
+            .block-what h3,
+            .block-product .para-what h3 {
+                font-size: 18px;
+                letter-spacing: 2px;
+            }
+            .block-product .img-what img,
+            .block-what img,
+            .block-development .img-what img {
+                width: 18%;
+            }
+            /* photo gallary */
+            .block-photo .image1,
+            .block-photo .image2,
+            .block-photo .image3,
+            .block-photo .image4,
+            .block-photo .image5,
+            .block-photo .image6 {
+                width: 100%;
+                margin: 10px;
+            }
+            .contact .block-contact a {
+                padding: 5px 5px;
+                letter-spacing: 0.6px;
+                font-size: 14px;
+                margin: 15px 3px 32px;
+            }
+            /* footer  */
+            .footer-section {
+                text-align: center;
+                padding: 9px 0px;
+            }
+            .footer-section .copyright p {
+                font-size: 12px;
+                padding: 11px 0 0 20px;
+            }
+            .footer-section .icon img {
+                width: 80%;
+            }
+        }
+        
+        @media (max-width:439px) {
+            .banner-section h1 {
+                font-size: 26px;
+                line-height: 30.65px;
+            }
+            .banner-section p {
+                font-size: 11px;
+                line-height: 18px;
+                padding: 13px 0px 0px 6px;
+            }
+            .banner-section .circle-logo img {
+                padding: 42px 0px 0 1px;
+            }
+            .about-us .block-about p,
+            .contact .block-contact .para p,
+            .block-what p,
+            .block-service p {
+                font-size: 12px;
+                line-height: 18px;
+            }
+            .about-us .block-about .para2 p {
+                padding: 13px 0 25px 7px;
+                margin: 0;
+            }
+            .about-us .block-about .para1 p,
+            .block-service .para1 p {
+                padding: 15px 0 0px 9px;
+            }
+            .block-service fieldset {
+                padding: 0 0 25px 0px;
+            }
+            /* what section  */
+            .block-design .img-what {
+                margin: 0;
+                padding: 35px 0 11px;
+            }
+            .block-development .img-what,
+            .block-product .img-what {
+                margin: 0;
+                padding: 28px 0 0 0;
+            }
+            .block-development .para-what h3,
+            .block-product .para-what h3 {
+                padding: 14px 0px 20px 5px;
+            }
+            .block-product .para-what p {
+                padding-bottom: 30px;
+            }
+            .photo-section h2 {
+                font-size: 20px;
+            }
+        }

@@ -1,0 +1,441 @@
+    /* imports */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+    /* Global css  */
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .pos_rel {
+        position: relative;
+    }
+    
+    .pos_abs {
+        position: absolute;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+    
+    .container {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .clearfix:before,
+    .clearfix:after {
+        width: 100%;
+        display: table;
+        content: '';
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        margin: 0;
+        font-weight: 600;
+    }
+    
+    h1 {
+        font-size: 48px;
+        line-height: 57px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 34px;
+        line-height: 57px;
+    }
+    
+    h3 {
+        font-size: 22px;
+        line-height: 33px;
+        color: #fefefe;
+    }
+    
+    h4 {
+        font-size: 18px;
+        line-height: 57px;
+    }
+    
+    p {
+        font-size: 18px;
+        line-height: 27px;
+        color: #cfcfcf;
+        font-weight: 400;
+        font-family: "Montserrat";
+        margin: 0;
+    }
+    
+    .blue_clr {
+        color: #0b53ac;
+    }
+    
+    a {
+        text-decoration: none;
+        border-radius: 22px;
+        background-color: #0b53ac;
+        font-size: 18px;
+        line-height: 57px;
+        color: #ffffff;
+        font-weight: 600;
+        padding: 11px 27px;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    .fr {
+        float: right;
+    }
+    
+    .T_centered {
+        text-align: center;
+    }
+    
+    .T_right {
+        text-align: right;
+    }
+    
+    .w50 {
+        width: 50%;
+    }
+    /* ------ banner section css ----- */
+    
+    .banner_section {
+        background-image: url("../assets/images/Banner_img.png");
+        background-repeat: no-repeat;
+        padding: 111px 0 27px 0px;
+        background-position: center;
+    }
+    /* banner top part  */
+    
+    .top_head h1 {
+        padding-right: 1px;
+    }
+    
+    .tag_line h2 {
+        padding: 8px 3px 17px 0;
+    }
+    
+    .learn_more_btn_top {
+        margin: 0 0 0 0;
+    }
+    /* bottom part  */
+    
+    .banner_bottom_part {
+        padding: 453px 0 0 102px;
+    }
+    
+    .base_block {
+        padding: 0 96px 0 0;
+    }
+    /* block 1 */
+    
+    div.banner_bottom_part:nth-child(2)>div.base_block:nth-child(2) img {
+        padding: 20px 0 14px 0;
+    }
+    
+    .take_off_block .base_block_feature h4 {
+        padding-top: 11px;
+    }
+    
+    .radar_block .base_block_img img {
+        padding: 0px 7px 0px 0px;
+    }
+    
+    .nav_block {
+        padding-top: 3px;
+    }
+    /* ----------section 2 aritaweb---------  */
+    
+    .about_aritaweb_section {
+        background-image: url("../assets/images/sec2_bg.png");
+        background-repeat: no-repeat;
+        padding: 141px 0 184px 125px;
+        background-position: center;
+    }
+    
+    .aritaweb_part .para_arita p {
+        width: 688px;
+        padding: 14px 0 0 2px;
+    }
+    /* ----------section 3 Begining---------  */
+    
+    .begining_section {
+        background-color: #000000;
+        padding: 49px 0 0px 0;
+    }
+    
+    .begining_head_part .para_part p {
+        padding: 20px 172px 20px 173px;
+    }
+    /* drone_feature_part  */
+    
+    .drone_feature_part {
+        padding: 72px 0 0 0;
+    }
+    
+    .drone_img_part {
+        z-index: 3;
+        z-index: 3;
+        left: 22%;
+        top: 559%;
+    }
+    
+    .circle_img_part {
+        z-index: 2;
+        top: 387%;
+        left: 27%;
+    }
+    /* ai_box */
+    
+    .feature_box .bus_box:before {
+        position: absolute;
+        width: 98px;
+        height: 4px;
+        background-color: #0b53ac;
+        top: 50%;
+    }
+    
+    .ai_content {
+        padding-bottom: 543px;
+    }
+    
+    .box_line {
+        z-index: -1;
+    }
+    
+    .v_line {
+        width: 4px;
+        height: 274px;
+        background-color: #0b53ac;
+        margin: 0 0 0 94px;
+        z-index: -1;
+    }
+    
+    .h_line {
+        width: 98px;
+        height: 4px;
+        background-color: #0b53ac;
+        margin: 0 0px 0 -4px;
+        z-index: -1;
+    }
+    
+    .feature_box {
+        z-index: 2;
+    }
+    
+    .feature_box p {
+        width: 327px;
+        padding: 6px 0 62px 35px;
+    }
+    
+    .feature_box h3 {
+        padding: 52px 0px 0 33px;
+    }
+    
+    .ai_content .bus_box {
+        z-index: -1;
+        top: 0.3%;
+    }
+    
+    .boxs_lines_ai {
+        top: 1.6%;
+        left: 59.9%;
+    }
+    /* lang_box */
+    
+    .lang_content {
+        padding: 0 0 534px 238px;
+    }
+    
+    .lang_content p {
+        width: 327px;
+        padding: 4px 0 62px 34px;
+    }
+    
+    .lang_content h3 {
+        padding: 32px 0px 0 32px;
+    }
+    
+    .lang_content .bus_box {
+        z-index: -1;
+        top: 0.3%;
+    }
+    
+    .boxs_lines_lang .v_line {
+        margin: 0 0 0 0;
+    }
+    
+    .boxs_lines_lang .h_line {
+        width: 111px;
+        margin: 0;
+    }
+    
+    .boxs_lines_lang {
+        top: 1.6%;
+        right: 77.8%;
+    }
+    /* comp_sen_content */
+    
+    .comp_sen_content p {
+        width: 327px;
+        padding: 4px 0 62px 34px;
+    }
+    
+    .comp_sen_content h3 {
+        padding: 55px 0px 1px 32px;
+    }
+    
+    .comp_sen_content .bus_box {
+        z-index: -1;
+        top: 2%;
+    }
+    
+    .boxs_lines_comp .h_line {
+        margin: 272px 0 0 -32px;
+        width: 130px;
+    }
+    
+    .boxs_lines_comp {
+        bottom: 141%;
+        left: 59.7%;
+    }
+    /* operational  */
+    
+    .operational_content {
+        padding: 0 0 124px 238px;
+    }
+    
+    .operational_content p {
+        width: 327px;
+        padding: 4px 0 62px 34px;
+    }
+    
+    .operational_content h3 {
+        padding: 49px 0px 0 32px;
+    }
+    
+    .operational_content .bus_box {
+        z-index: -1;
+        top: 0.3%;
+    }
+    
+    .boxs_lines_operat .v_line {
+        margin: 10px 0 0 0px;
+        height: 263px;
+    }
+    
+    .boxs_lines_operat .h_line {
+        margin: 270px 0 0 0px;
+        width: 140px;
+    }
+    
+    .boxs_lines_operat {
+        bottom: 126.6%;
+        right: 455px;
+    }
+    /* section 4 capable drone*/
+    
+    .capable_section {
+        padding: 135px 0 135px 0;
+    }
+    
+    .capable_head_part .para_part p {
+        padding: 21px 172px 29px 174px;
+        color: #181818;
+    }
+    
+    .capable_head_part .title_part h2 {
+        padding: 0 0 0 3px;
+        color: #212121;
+        font-weight: 700;
+    }
+    
+    .big_blue_line {
+        background-color: #0b53ac;
+        margin: 352px 0 0 0;
+        padding: 190px 0 0 0;
+    }
+    
+    .capable_drone_img {
+        z-index: 2;
+        top: 42.5%;
+        right: 10.9%;
+    }
+    /* hover effect and animation */
+    
+    .capable_drone_img img:hover,
+    .drone_img_part img:hover,
+    .feature_box .bus_box img:hover,
+    .base_block:hover {
+        transform: scale(1.1);
+        display: inline-block;
+        transition: width 2s, height 2s, transform 1s;
+    }
+    
+    a:hover {
+        background-color: #5484be;
+    }
+    
+    .circle_img_part,
+    .radar_block img {
+        animation-name: anim_circle;
+        animation-duration: 6s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes anim_circle {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .auto_bal .base_block_img img {
+        animation-name: auto_bal_anim;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes auto_bal_anim {
+        25% {
+            transform: rotate(20deg);
+        }
+        50% {
+            transform: rotate(20deg);
+        }
+        75% {
+            transform: rotate(-20deg);
+        }
+        100% {
+            transform: rotate(-20deg);
+        }
+    }
+    
+    .base_block::after {
+        transition: width 2s, height 2s, transform 1s;
+    }

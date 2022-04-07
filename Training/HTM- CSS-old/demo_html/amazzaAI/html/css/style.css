@@ -1,0 +1,575 @@
+        /* font family */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+        * {
+            box-sizing: border-box;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins';
+        }
+        /* img {
+        max-width: 100%;
+        height: auto;
+    } */
+        
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        .clearfix:before,
+        .clearfix:after {
+            width: 100%;
+            display: table;
+            content: '';
+        }
+        
+        .footer-form::placeholder {
+            opacity: 1;
+            font-size: 20px;
+            line-height: 26px;
+            color: #353535;
+            font-weight: 500;
+            font-family: "Poppins";
+        }
+        
+         ::placeholder {
+            opacity: 0.5;
+            font-size: 16px;
+            line-height: 30px;
+            color: #4f4f4f;
+            font-weight: 400;
+            font-family: "Poppins";
+        }
+        /* header section */
+        
+        .white-space {
+            padding: 8px;
+            background-color: #ffffff;
+        }
+        
+        .site-navigation {
+            background-color: black;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+        
+        .site-navigation ul {
+            padding: 29px 16px 0px 0px;
+            margin: 0 0 0 0;
+            list-style: none;
+        }
+        
+        .navigation i {
+            padding: 0px 0 0 11px;
+            color: #ffffff;
+        }
+        
+        .navigation a:hover {
+            color: #d9b148;
+        }
+        
+        .home {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .about {
+            padding: 0 0 0 49px;
+            margin: 0;
+        }
+        
+        .pricing {
+            padding: 0px 0px 0px 48px;
+            margin: 0;
+        }
+        
+        .product {
+            padding: 0 48px 0 49px;
+            margin: 0;
+        }
+        
+        .contact {
+            padding: 0 2px 0 0;
+            margin: 0;
+        }
+        
+        .site-navigation .head-logo {
+            width: 25%;
+            float: left;
+            padding: 27px 0px 19px 18px;
+            margin: 0 0 0 0;
+        }
+        
+        .navigation ul li {
+            display: inline-block;
+        }
+        
+        .navigation {
+            width: 75%;
+            float: left;
+            text-align: right;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+        
+        .navigation ul li a {
+            display: inline-block;
+            text-align: center;
+            font-size: 16px;
+            letter-spacing: 0px;
+            line-height: 39px;
+            color: #ffffff;
+            font-weight: 500;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+        /* about us  */
+        
+        .about-block {
+            width: 50%;
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .image-block {
+            width: 50%;
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .top-about h3 {
+            font-size: 24px;
+            letter-spacing: 1px;
+            color: #010101;
+            font-weight: 600;
+            margin: 0;
+            padding: 235px 0px 11px 17px;
+            line-height: 22px;
+        }
+        
+        .underline {
+            width: 84px;
+            height: 5px;
+            border-radius: 2px;
+            background-color: #c88500;
+            margin: 0;
+            margin: 0 0 0 19px;
+        }
+        
+        .top-about p {
+            font-size: 18px;
+            line-height: 24px;
+            color: #353535;
+            font-weight: 400;
+            margin: 0;
+            padding: 18px 0px 41px 20px;
+        }
+        
+        .images img {
+            padding: 0;
+            margin: 0 0 105px 0;
+            width: 574px;
+            height: 643px;
+        }
+        
+        .images {
+            padding: 126px 0px 0px 23px;
+            margin: 0 0 0 0;
+        }
+        /* form  */
+        
+        .form-about .field input[name="name"] {
+            width: 427px;
+            border: none;
+            border-bottom: 2px solid #353535;
+            border-radius: 1px;
+            height: 31px;
+            padding: 0px 0px 0px 2px;
+            margin: 0px 0 40px 0;
+        }
+        
+        .form-about .field input[name="tel"] {
+            width: 320px;
+            border: none;
+            border-bottom: 2px solid #353535;
+            border-radius: 1px;
+            height: 31px;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px 8px;
+        }
+        
+        .field img {
+            margin: 2px 5px -3px 4px;
+        }
+        
+        .field i {
+            font-size: 34px;
+            padding: 0 0 0 0;
+        }
+        
+        .field label {
+            padding: 0 0 0 3px;
+        }
+        
+        select {
+            width: 67px;
+            height: 29px;
+            border: none;
+            background-color: #ffffff;
+        }
+        
+        .form-about .field input[name="email"] {
+            width: 427px;
+            border: none;
+            border-bottom: 2px solid #353535;
+            border-radius: 1px;
+            height: 31px;
+            padding: 0px 0px 0px 2px;
+            margin: 36px 0px 0px 0;
+        }
+        
+        .form-about form {
+            padding: 0px 0px 0px 17px;
+            margin: 0;
+        }
+        
+        .form-about .field input[name="subject"] {
+            margin: 40px 0px 41px 0px;
+            width: 427px;
+            border: none;
+            border-bottom: 2px solid #353535;
+            border-radius: 1px;
+            height: 31px;
+            padding: 0px 0px 11px 3px;
+        }
+        
+        .form-about .field input[type="submit"] {
+            width: 140px;
+            height: 46px;
+            border-radius: 23px;
+            background-color: #000000;
+            border: none;
+            padding: 2px 0px 0px 0px;
+            margin: 0px 0px 0px 5px;
+            font-size: 20px;
+            letter-spacing: 1px;
+            line-height: 39px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: "Poppins";
+        }
+        /* footer section */
+        /* top footer */
+        
+        .contact-top {
+            width: 43%;
+            float: left;
+        }
+        
+        .top-footer {
+            padding: 95px 0px 43px 0px;
+        }
+        
+        .knowus-top {
+            width: 17%;
+            float: left;
+        }
+        
+        .stay-top {
+            width: 40%;
+            float: left;
+        }
+        
+        .top-footer {
+            background-color: #f4f4f4;
+        }
+        
+        .contact-top h3 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            font-weight: 500;
+            margin: 0 0 0 0;
+            padding: 0 0 0 42px;
+        }
+        
+        .contact-top p {
+            font-size: 16px;
+            line-height: 24px;
+            color: #353535;
+            font-weight: 500;
+            margin: 0 0 0 0;
+            padding: 44px 0px 0px 42px;
+        }
+        
+        a.email-line {
+            padding: 2px;
+            margin: 2px;
+            top: 1230px;
+            left: 122px;
+            position: absolute;
+        }
+        /* .contact-top .link {}
+        
+        .link img {
+            margin: 0;
+            display: inline-block;
+           
+        }
+        
+        .link h4 {
+            
+            margin: 0;
+            font-size: 20px;
+            line-height: 30px;
+            color: #353535;
+            font-weight: 500;
+            font-family: "Poppins";
+            display: inline-block;
+        }
+        
+        .email-icon {
+            padding: 0 0px 0px 0px;
+            margin: 0;
+            float: left;
+        }
+        
+        .emails {
+            padding: 0 0px 0px 0px;
+            margin: 0;
+            float: left;
+        }
+        
+        .tele-icon {
+            padding: 0 0px 0px 0px;
+            margin: 0;
+        }
+        
+        .tele-num {
+            padding: 0 0px 0px 0px;
+            margin: 0;
+            float: left;
+        }  */
+        
+        .contact-top a {
+            font-size: 20px;
+            line-height: 30px;
+            color: #353535;
+            font-weight: 500;
+            padding: 0 0 0 0;
+            margin: 0;
+        }
+        
+        .contact-top img {
+            padding: 11px 10px 0 0;
+            margin: 0;
+        }
+        
+        .contact-top .link {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .contact-top li {
+            padding: 0px 0px 0px 0px;
+            margin: 0;
+        }
+        
+        .knowus-top h3 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            font-weight: 500;
+            margin: 0 0 0 0;
+            padding: 0 0 0 26px;
+        }
+        
+        .knowus-top a {
+            font-size: 20px;
+            line-height: 26px;
+            color: #000000;
+            font-weight: 500;
+            margin: 0 0 0 0;
+            padding: 0px 0px 0px 0px;
+        }
+        
+        .knowus-top a:hover {
+            color: #c88500;
+        }
+        
+        .knowus-top ul {
+            margin: 0;
+            padding: 41px 0px 0px 27px;
+        }
+        
+        .knowus-top li {
+            margin: 0;
+            padding: 0px 0px 7px 0px;
+        }
+        
+        .stay-top h3 {
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            font-weight: 500;
+            margin: 0 0 0 0;
+            padding: 0 0 0 53px;
+        }
+        
+        .stay-top p {
+            font-size: 16px;
+            line-height: 24px;
+            color: #353535;
+            font-weight: 500;
+            margin: 0 0 0 0;
+            padding: 44px 0px 22px 54px;
+        }
+        /* .email-stay {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .stay-top input[type="text"] {
+            width: 309px;
+            height: 49px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            margin: 0;
+            padding: 0 0 0 0;
+        }
+        
+        .stay-top input[type="submit"] {
+            width: 57px;
+            height: 49px;
+            border-radius: 5px;
+            background-color: #000000;
+        } */
+        
+        .top-footer form {
+            padding: 5px;
+            border-radius: 4px;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .top-footer form input[type="email"] {
+            color: #353535;
+            background: none;
+            /* width: 62%; */
+            float: left;
+            width: 366px;
+            height: 49px;
+            border-radius: 5px;
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            padding: 1px 0 0px 18px;
+            margin: 0 0 0 54px;
+            font-size: 20px;
+            color: #353535;
+            font-weight: 500;
+        }
+        
+        .top-footer form button {
+            /* width: 38%; */
+            float: left;
+            width: 57px;
+            height: 49px;
+            border: none;
+            border-radius: 5px;
+            background-color: #000000;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            position: absolute;
+            right: 0px;
+        }
+        
+        form.footer-form ::placeholder {
+            opacity: 1;
+            font-size: 20px;
+            line-height: 26px;
+            color: #353535;
+            font-weight: 500;
+        }
+        
+        .top-footer .fa-lg {
+            font-size: 25px;
+        }
+        
+        button i {
+            color: #ffffff;
+        }
+        /* bottom footer */
+        
+        .bottom-footer {
+            background-color: black;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+        
+        .bottom-footer .footer-logo {
+            float: left;
+            padding: 0px 0px 0px 0px;
+            margin: 0 0 0 0;
+        }
+        
+        .footer-logo img {
+            padding: 22px 0px 20px 47px;
+        }
+        
+        .social-navigation ul li {
+            display: inline-block;
+        }
+        
+        .social-navigation {
+            float: right;
+            text-align: right;
+            padding: 18px 62px 0px 0px;
+            margin: 0 0 0 0;
+        }
+        
+        .footer-logo i {
+            display: inline-block;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+            color: #ffffff;
+        }
+        
+        .footer-logo .fa-lg {
+            font-size: 22px;
+        }
+        
+        .social-navigation i {
+            padding: 0px 0px 0px 21px;
+            margin: 0 0 0 0;
+            color: #ffffff;
+        }
+        
+        .footer-logo p {
+            font-size: 12px;
+            letter-spacing: 0.21px;
+            color: #ffffff;
+            font-weight: 500;
+            font-family: "Quicksand";
+            float: right;
+            padding: 39px 0px 0px 22px;
+            margin: 0;
+        }

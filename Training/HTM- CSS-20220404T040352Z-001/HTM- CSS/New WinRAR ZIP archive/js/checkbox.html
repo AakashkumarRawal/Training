@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        input[type="checkbox"]+label {
+            display: inline-block;
+        }
+        
+        input[type="checkbox"]+label::before {
+            content: 'A';
+            width: 20px;
+            height: 20px;
+            /* display: inline-block; */
+            border: 2px solid #000;
+            vertical-align: middle;
+            margin-right: 10px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 18px;
+            color: #fff;
+            border-radius: 50%;
+        }
+        
+        input[type="checkbox"]:checked+label:before {
+            background-color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fieldset">
+        <div class="field">
+            <ul>
+                <li>
+                    <input type="checkbox" value="Ahmedabad" name="city" id="city-1">
+                    <label for="city-1">Ahmedabad</label>
+                </li>
+                <li>
+                    <input type="checkbox" value="Surat" name="city" id="city-2">
+                    <label for="city-2">Surat</label>
+                </li>
+                <li>
+                    <input type="checkbox" value="Rajkot" name="city" id="city-3">
+                    <label for="city-3">Rajkot</label>
+                </li>
+                <li>
+                    <input type="checkbox" value="Mehsana" name="city" id="city-4">
+                    <label for="city-4">Mehsana</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

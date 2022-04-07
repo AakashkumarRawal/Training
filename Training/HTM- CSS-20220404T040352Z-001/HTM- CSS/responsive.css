@@ -1,0 +1,99 @@
+/*
+1920, 1600, 1440, 1366, 1280, 1024, 768
+960, 640, 560, 480, 414, 375
+
+*/
+
+
+/* Responsive Media Queries 
+----------------------------*/
+
+@media (max-width:1180px) {
+    .container {
+        max-width: 992px;
+    }
+    .site-nav ul li a {
+        padding: 10px 15px 10px 15px;
+    }
+}
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 900px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 1.4;
+    }
+    h2,
+    .section2 p,
+    .section3 h2,
+    .section4 h2 {
+        font-size: 33px;
+        line-height: 1.4;
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+    .site-nav {
+        padding-left: 0;
+    }
+    .button a {
+        padding: 14px 30px 12px;
+        width: auto;
+    }
+    .section4 .four-col-progress .progress h4 {
+        font-size: 18px;
+    }
+    .section5 .button a {
+        width: auto;
+        height: auto;
+    }
+    .fnav a {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 700px;
+    }
+    .banner-section h1,
+    form textarea {
+        width: 100%;
+    }
+    .logo {
+        width: auto;
+        padding-left: 0;
+    }
+    .site-nav {
+        width: auto;
+        float: right;
+    }
+    .banner-section,
+    .section2 {
+        padding-top: 70px;
+    }
+    .banner-section,
+    .section2 .four-col .icon h6 {
+        padding-bottom: 70px;
+    }
+    .section2 .four-col .icon,
+    .section3 .four-col-team .block,
+    .section4 .four-col-progress .progress {
+        width: 50%;
+    }
+    .section2 .four-col .icon:nth-child(2n+1),
+    .section3 .four-col-team .block:nth-child(2n+1),
+    .section4 .four-col-progress .progress:nth-child(2n+1) {
+        clear: left;
+    }
+    form input[type="name"],
+    form input[type="email"],
+    form textarea {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+}

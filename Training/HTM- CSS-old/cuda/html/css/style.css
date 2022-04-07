@@ -1,0 +1,885 @@
+    /* font family */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Titillium web';
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .T_center {
+        text-align: center;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .container {
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .clearfix:before,
+    .clearfix:after {
+        width: 100%;
+        display: table;
+        content: '';
+    }
+    
+     ::placeholder {
+        opacity: 1;
+        font-size: 18px;
+        line-height: 18px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Titillium Web";
+        padding-left: 25px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Titillium Web";
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 42px;
+        line-height: 49px;
+        font-weight: 700;
+    }
+    
+    h2 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    
+    h3 {
+        font-size: 24px;
+        line-height: 18px;
+    }
+    /* h4 {
+        font-size: 24px;
+        line-height: 18px;
+    } */
+    
+    h5 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    h6 {
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+    
+    a {
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    /* header */
+    
+    .site-navigation {
+        background-color: #87509c;
+        padding-top: 57px
+    }
+    
+    input[name="menu_trigger"] {
+        display: none !important;
+    }
+    
+    .menuTrigger {
+        display: none;
+    }
+    
+    .site-navigation ul {
+        margin: 0;
+        padding-right: 0px;
+        list-style: none;
+        padding-top: 3px;
+    }
+    
+    .site-navigation .head-logo {
+        width: 25%;
+        float: left;
+        padding-left: 48px;
+    }
+    
+    .navigation ul li {
+        display: inline-block;
+    }
+    
+    .navigation {
+        width: 75%;
+        float: left;
+        text-align: right;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 30px;
+    }
+    /* .navigation a:hover {
+    background-color: #643a79;
+    border-radius: 4px;
+    width: 77px;
+    height: 32px;
+} */
+    
+    .navigation ul li a {
+        display: inline-block;
+        color: white;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 7px;
+        padding-left: 41px
+    }
+    /* banner */
+    
+    .banner-section {
+        background-color: #87509c;
+        text-align: center;
+        color: white;
+        font-size: 42px;
+        padding-top: 122px;
+        padding-bottom: 161px;
+    }
+    
+    .banner-section h1 {
+        color: #f7f3ea;
+        text-align: center;
+        display: inline-block;
+        max-width: 944px;
+        width: 100%;
+        padding-top: 6px;
+        padding-bottom: 1px;
+    }
+    
+    .banner-button {
+        padding-top: 39px;
+    }
+    
+    .banner-section a {
+        background-color: #eb7d4b;
+        border: none;
+        border-bottom: 4px solid #c86a40;
+        border-radius: 4px;
+        color: #ffffff;
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 26px;
+        font-weight: 600;
+        padding: 18px 83px 21px;
+    }
+    /* service sections */
+    
+    .service-section {
+        background-color: #17c2a4;
+        padding: 120px 0 125px;
+        color: #ffffff;
+    }
+    
+    .top-service h2 {
+        letter-spacing: 4px;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .underline-h2 {
+        width: 87px;
+        height: 4px;
+        background-color: #13a58b;
+        margin: 18px auto;
+        margin-top: 19px;
+    }
+    
+    .top-service p {
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 0.39px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        margin: 0 auto;
+        padding: 0 0 62px;
+        max-width: 612px;
+        width: 100%;
+    }
+    
+    .bottom-service img {
+        padding-top: 11px;
+        padding-left: 9px;
+    }
+    
+    .bottom-service .block {
+        float: left;
+        width: 25%;
+        padding: 0 40px;
+        text-align: center
+    }
+    
+    .bottom-service h3 {
+        letter-spacing: 0px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 47px;
+    }
+    
+    .para-block p {
+        font-size: 16px;
+        letter-spacing: 0.12px;
+        line-height: 24px;
+        font-weight: 300;
+        margin: 0 auto;
+        padding-top: 22px;
+        text-align: center;
+        max-width: 191px;
+        width: 100%;
+    }
+    /* team section */
+    
+    .team-section {
+        background-color: #e7f1f8;
+        padding: 116px 0 120px;
+    }
+    
+    .top-team .underline-h2 {
+        background-color: #c8d9e5;
+    }
+    
+    .top-team h2 {
+        letter-spacing: 3.5px;
+        text-align: center;
+        font-size: 41px;
+        color: #3c4761;
+        font-weight: 700;
+        padding-top: 3px;
+        padding-left: 4px;
+    }
+    
+    .top-team p {
+        font-size: 18px;
+        letter-spacing: 0px;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0px;
+        color: #3c4761;
+        text-align: center;
+        margin: 0;
+        padding: 6px 10px 80px;
+    }
+    
+    .bottom-team .block-team {
+        float: left;
+        width: 25%;
+        padding: 0 40px;
+        text-align: center;
+    }
+    
+    .bottom-team .block-team .social-icon {
+        padding: 8px 0 2px 0px;
+    }
+    
+    .img-profile img {
+        margin-bottom: 0;
+    }
+    
+    .bottom-team h3 {
+        letter-spacing: 0px;
+        color: #27283d;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-top: 32px;
+        padding-bottom: 12px;
+    }
+    
+    .block-team h6 {
+        letter-spacing: 0px;
+        color: #30bae7;
+        font-weight: 400;
+    }
+    
+    .block-team p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 24px;
+        color: #3c4761;
+        font-weight: 300;
+        max-width: 197px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 21px 0;
+    }
+    
+    .social-icon img {
+        padding: 0px 4px;
+    }
+    /* skill section */
+    
+    .skill-section {
+        background-color: #ffffff;
+        padding: 116px 0 115px;
+    }
+    
+    .skill-section .underline-h2 {
+        background-color: #dfe7ed;
+    }
+    
+    .skill-section h2 {
+        letter-spacing: 4px;
+        color: #3c4761;
+        font-weight: 700;
+        text-align: center;
+        padding: 0px 0px 1px 5px;
+    }
+    
+    .skill-section .underline-h2 {
+        margin-top: 19px;
+    }
+    
+    .skill-section p {
+        font-size: 18px;
+        letter-spacing: 0.38px;
+        line-height: 26px;
+        color: #3c4761;
+        font-weight: 400;
+        text-align: center;
+        max-width: 570px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 82px;
+    }
+    
+    .skill-section .block-skill {
+        width: 25%;
+        float: left;
+        padding: 0 40px;
+    }
+    
+    .block-skill img {
+        padding: 0px 0px 0px 7px;
+    }
+    /* touch section */
+    
+    .touch-section {
+        background-color: #3c5499;
+        padding: 111px 0 115px;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .touch-section .underline-h2 {
+        background-color: #273a71;
+        width: 87px;
+        height: 4px;
+        margin: 20px auto 19px;
+    }
+    
+    .touch-section h2 {
+        letter-spacing: 4px;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: center;
+        padding: 2px 0px 0px 4px;
+    }
+    
+    .touch-section .touch-address p {
+        font-size: 18px;
+        letter-spacing: 0.44px;
+        line-height: 26px;
+        color: #ffffff;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .bottom-touch form {
+        padding-top: 75px;
+    }
+    
+    .bottom-touch form input[type="email"] {
+        max-width: 414px;
+        width: 100%;
+        border-radius: 4px;
+        background-color: #273a71;
+        border: none;
+        margin: 0 14px;
+        padding: 21px 0px 19px;
+    }
+    
+    .bottom-touch form input[type="text"] {
+        max-width: 414px;
+        width: 100%;
+        border-radius: 4px;
+        background-color: #273a71;
+        border: none;
+        margin: 0 14px;
+        padding: 21px 0px 19px;
+    }
+    
+    .bottom-touch form textarea {
+        max-width: 860px;
+        width: 100%;
+        border-radius: 3px;
+        background-color: #273a71;
+        border: none;
+        margin-top: 27px;
+        padding: 21px 0 149px;
+    }
+    
+    .form_field {
+        display: inline;
+    }
+    
+    .bottom-touch form input[type="submit"] {
+        background-color: #30bae7;
+        border: none;
+        border-bottom: 4px solid #299ec5;
+        border-radius: 4px;
+        color: #ffffff;
+        font-size: 18px;
+        margin-top: 52px;
+        padding: 27px 75px 19px;
+        letter-spacing: 0;
+        cursor: pointer;
+    }
+    /* footer  */
+    
+    .social-nav {
+        background-color: #334b8e;
+        padding: 41px 0 45px;
+        text-align: center;
+    }
+    
+    .social-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .social-list ul li {
+        display: inline-block;
+    }
+    
+    .social-list ul li a {
+        display: inline-block;
+        padding: 0 31px;
+        color: #ffffff;
+        font-size: 24px;
+        letter-spacing: 0.10px;
+        line-height: 30px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .social-list a:hover {
+        color: #30bae7;
+    }
+    /*
+1920, 1600, 1440, 1366, 1280, 1024, 768
+960, 640, 560, 480, 414, 375
+
+*/
+    /* Responsive Media Queries 
+----------------------------*/
+    
+    @media (max-width:1180px) {
+        .container {
+            max-width: 992px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .bottom-team .block-team {
+            padding: 0 20px;
+        }
+        .bottom-service .block {
+            padding: 0 20px;
+        }
+        .social-list ul li a {
+            padding: 0 24px;
+        }
+        .navigation ul li a {
+            padding: 8px 20px;
+        }
+    }
+    
+    @media (max-width:1024px) {
+        .container {
+            max-width: 930px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            line-height: 1.4;
+        }
+        h2,
+        .top-team h2 {
+            font-size: 32px;
+        }
+        /* h2 {
+            font-size: 32px;
+        } */
+        .banner-section a {
+            padding: 14px 48px;
+        }
+        .bottom-touch form input[type="submit"] {
+            padding: 17px 14px 12px;
+            font-size: 16px;
+        }
+        .bottom-team .block-team {
+            padding: 0 10px;
+        }
+        .img-profile img {
+            max-width: 80%;
+            width: 100%;
+        }
+        .social-list ul li a {
+            padding: 0 19px;
+        }
+    }
+    
+    @media (max-width:992px) {
+        .container {
+            max-width: 700px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .bottom-team .block-team {
+            width: 50%;
+            padding: 50px 20px 25px;
+        }
+        .bottom-service .block {
+            width: 50%;
+            padding: 16px 20px;
+        }
+        h1 {
+            font-size: 32px;
+            line-height: 1.3;
+        }
+        h2,
+        .top-team h2 {
+            font-size: 30px;
+        }
+        .navigation ul li a {
+            padding: 8px 16px;
+        }
+        .bottom-touch form input[type="text"],
+        .bottom-touch form input[type="email"] {
+            max-width: 602px;
+            margin: 13px 0px;
+        }
+        .social-list ul li a {
+            padding: 0px 10px;
+            font-size: 20px;
+        }
+        .bottom-touch form textarea {
+            margin-top: 13px;
+            max-width: 602px;
+        }
+        .img-profile img {
+            max-width: 60%;
+        }
+        .skill-section .block-skill {
+            width: 50%;
+            padding: 29px 74px;
+        }
+        .banner-section {
+            padding: 100px 0;
+        }
+        .service-section {
+            padding: 80px 0 85px;
+        }
+        .team-section {
+            padding: 80px 0 80px;
+        }
+        .skill-section {
+            padding: 90px 0;
+        }
+        .touch-section {
+            padding: 90px 0;
+        }
+        p {
+            font-size: 16px;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        .block-team p {
+            font-size: 15px;
+        }
+        .top-service p,
+        .top-team p,
+        .skill-section p {
+            font-size: 17px;
+            padding-bottom: 40px;
+        }
+        .touch-section .touch-address p {
+            font-size: 15px;
+        }
+         ::placeholder {
+            font-size: 16px;
+        }
+        .block-skill img {
+            max-width: 87%;
+        }
+        .social-nav {
+            padding: 26px 0;
+        }
+        .bottom-touch form {
+            padding-top: 33px;
+        }
+        h3 {
+            padding-top: 24px;
+            font-size: 22px;
+        }
+        .site-navigation {
+            padding-top: 57px;
+        }
+        .banner-button {
+            padding-top: 31px;
+        }
+        .banner-section a {
+            padding: 14px 16px;
+        }
+        .bottom-touch form input[type="submit"] {
+            padding: 15px 17px 13px;
+            font-size: 15px;
+        }
+    }
+    /* @media (max-width:768px) {
+        .container {
+            max-width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .social-list ul li a {
+            padding: 0px 10px;
+            font-size: 17px;
+        }
+        .bottom-touch form input[type="submit"] {
+            font-size: 15px;
+        }
+    } */
+    
+    @media (max-width:768px) {
+        body {
+            font-size: 14px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+        }
+        .container {
+            max-width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        h1 {
+            font-size: 30px;
+            line-height: 1.4;
+        }
+        h2,
+        .top-team h2 {
+            font-size: 28px;
+            line-height: 1.4;
+        }
+        h3 {
+            font-size: 20px;
+            line-height: 1.2;
+        }
+        h4 {
+            font-size: 20px;
+            line-height: 1.2;
+        }
+        h5 {
+            font-size: 16px;
+            line-height: 1.2;
+        }
+        h6 {
+            font-size: 14px;
+            line-height: 1.2;
+        }
+        .banner-section,
+        .service-section,
+        .team-section,
+        .skill-section,
+        .touch-section {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .top-service p,
+        .top-team p,
+        .skill-section p {
+            font-size: 16px;
+            padding-bottom: 28px;
+            line-height: 1.4;
+        }
+        /* header section  */
+        .site-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .head-logo img {
+            max-width: 90px;
+            padding-top: 0;
+        }
+        .navigation {
+            width: 100%;
+            padding-top: 0;
+            text-align: center;
+        }
+        .navigation ul {
+            padding: 0;
+        }
+        .navigation ul li {
+            display: block;
+        }
+        .navigation ul li a {
+            float: none;
+            width: 100%;
+            padding: 12px 10px;
+        }
+        label.menuTrigger {
+            float: right;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff !important;
+            display: block;
+        }
+        .navigation {
+            position: absolute;
+            left: 0;
+            max-width: 200px;
+            width: 100%;
+            background-color: #000;
+            opacity: 0.9;
+            top: 0;
+            height: 100%;
+            padding: 15px 0;
+            transform: translate(-100%, 0);
+            display: block;
+            transition: all ease 0.4s;
+        }
+        [name="menu_trigger"]:checked~.container .navigation {
+            transform: translate(0, 0);
+        }
+        .banner-button {
+            padding-top: 18px;
+        }
+        .banner-section a {
+            padding: 8px 16px;
+            font-size: 15px;
+            line-height: 22px;
+            border-bottom: 3px solid #c86a40
+        }
+        /* service section  */
+        .bottom-service .img-block img {
+            max-width: 76px;
+            width: 100%;
+            object-fit: contain;
+            object-position: bottom;
+        }
+        .bottom-service h3 {
+            padding: 20px 0 10px;
+        }
+        .para-block p {
+            padding: 0;
+            font-size: 14px;
+            max-width: 170px;
+            line-height: 22px;
+        }
+        .bottom-service .block {
+            padding: 16px 5px 28px;
+        }
+        .underline-h2 {
+            margin: 10px auto;
+        }
+        /* team section  */
+        .bottom-team h3 {
+            padding: 18px 0 9px;
+        }
+        .block-team p {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .bottom-team .block-team {
+            width: 50%;
+            padding: 35px 20px 20px;
+        }
+        /* skill section  */
+        .skill-section .block-skill {
+            padding: 29px 40px;
+        }
+        .skill-section .underline-h2 {
+            margin: 10px auto;
+        }
+        /* touch section  */
+        .bottom-touch form input[type="text"],
+        .bottom-touch form input[type="email"] {
+            margin: 10px 0px;
+            padding: 16px 0px;
+        }
+        .bottom-touch form textarea {
+            margin-top: 10px;
+            padding: 21px 0 124px;
+        }
+        .bottom-touch form input[type="submit"] {
+            font-size: 14px;
+            padding: 12px 14px;
+        }
+        .social-list ul li a {
+            padding: 0px 6px;
+            font-size: 13px;
+        }
+        .site-navigation .head-logo {
+            padding-left: 0;
+        }
+    }
+    
+    @media (max-width:479px) {
+        h2,
+        .top-team h2 {
+            font-size: 25px;
+            line-height: 1.3;
+        }
+        .bottom-service .block,
+        .bottom-team .block-team,
+        .skill-section .block-skill {
+            width: 100%;
+            float: none;
+        }
+        .skill-section .block-skill {
+            padding: 25px 0px;
+            text-align: center;
+        }
+        .top-service p,
+        .top-team p,
+        .skill-section p {
+            width: 100%;
+            max-width: 295px;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0 auto;
+        }
+    }
